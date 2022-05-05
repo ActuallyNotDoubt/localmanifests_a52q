@@ -7,7 +7,7 @@
 
 	
     <!-- Device -->
-    <project name="android_device_samsung_a52q_AOSP" path="device/samsung/a52q" remote="Doubt" revision="evolution" />
+    <project name="android_device_samsung_a52q_AOSP" path="device/samsung/a52q" remote="Doubt" revision="streak" />
     <project name="android_device_samsung_sm7125-common-AOSP" path="device/samsung/sm7125-common" remote="ryzen" revision="twelve" />
 
     <!-- Kernel -->
