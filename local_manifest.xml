@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Remote -->
+    <remote fetch="https://github.com/Simon1511" name="simon" />
+    <remote fetch="https://github.com/Ryzen5950XT" name="ryzen" />
+    <remote fetch="https://github.com/ActuallyNotDoubt" name="Doubt" />
+
+	
+    <!-- Device -->
+    <project name="android_device_samsung_a52q_AOSP" path="device/samsung/a52q" remote="Doubt" revision="evolution" />
+    <project name="android_device_samsung_sm7125-common-AOSP" path="device/samsung/sm7125-common" remote="ryzen" revision="twelve" />
+
+    <!-- Kernel -->
+    <project name="android_kernel_samsung_sm7125" path="kernel/samsung/sm7125" remote="simon" revision="lineage-19.1" />
+
+    <!-- Vendor -->
+    <project name="android_vendor_samsung_sm7125-common" path="vendor/samsung" remote="simon" revision="lineage-19.0" />
+</manifest>
